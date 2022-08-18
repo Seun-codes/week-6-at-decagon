@@ -77,7 +77,7 @@
                     <button type="submit" class="btn btn-primary btn-sm">Buy</button>
                 </form>
             </td>
-            <td><a href="remove-from-cart?id=<%=c.getId() %>" class="btn btn-sm btn-danger">Remove</a></td>
+            <td><a href="RemoveFromCartServlet?id=<%=c.getId() %>" class="btn btn-sm btn-danger">Remove</a></td>
         </tr>
 
         <%
